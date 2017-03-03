@@ -141,7 +141,7 @@ i.star{background: url(../image/star.png) no-repeat center;}
 i.share{background: url(../image/share.png) no-repeat center;}
 i.user_info{background: url(../image/user_info.png) no-repeat center;}
 .statement {
-	width: 77%;
+	width: 77.7%;
 	float: left;
 	font-size: 12px;
 }
@@ -162,4 +162,79 @@ i.user_info{background: url(../image/user_info.png) no-repeat center;}
 }
 .statement .top a.selected {
 	color: #6898c2;
+}
+.statement-info {
+	width: 90%;
+	margin: 0 auto;
+}
+.statement-info .item1 {
+	background-color: #fff;
+	border:1px solid #dddfe1;
+	height: 70px;
+	padding: 15px 0 0 25px;
+	margin: 10px 0;
+	border-radius: 4px;
+}
+.statement-info .item1 form>div {
+	/*width: 25%;*/
+	float: left;
+}
+.statement-info .item1 form>div + div {
+	margin-left: 20px;
+}
+.statement-info .item1 span {
+	color: #999;
+}
+.statement-info .project select{
+	margin-left: 10px;
+	text-align: center;
+	padding: 2px 5px;
+}
+.statement-info .people {
+	position:relative;
+}
+.statement-info .people select {
+	/*display: */
+	width: 140px;
+	padding: 3px 0;
+}
+.statement-info .people .item + .item{
+	margin-top: 5px;
+}
+.change {
+	background: url(../image/change.png) no-repeat center;
+	position: absolute;
+	right: -32px;
+	top: 0px;
+	line-height: 57px;
+	width: 40px;
+	text-indent: 20px;
+}
+.statement-info .query-time {
+	/*margin-left: 60px;*/
+	/*background-color: red;*/
+	padding-left: 40px;
+}
+.statement-info .query-time select,
+.statement-info .query-time input {
+	padding: 3px 0;
+}
+.statement-info .query-time .item + .item{
+	margin-top: 5px;
+}
+.statement-info .query-time input {
+	width: 100px;
+}
+.ml15 {
+	display: inline-block;
+	margin-left: 40px;
+	color: red;
+}
+input[type=submit] {
+	margin-left: 60px;
+	width: 50px;
+	height: 25px;
+	background-color: lightblue;
+	border-radius: 5px;
+	margin-top: 15px;
 }

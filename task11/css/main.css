@@ -1,0 +1,223 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+	background-color: #fff;
+}
+a{
+	text-decoration: none;
+	color: #555;
+}
+ul li {
+	list-style: none;
+}
+/*header*/
+header h1 {
+	background-color: #91D4DA;
+	position: relative;
+	height: 3rem;
+	line-height: 2.5rem;
+	color: #fff;
+	font-size: 0;
+	padding-left: 1rem;
+	/*vertical-align: text-top;*/
+}
+header h1 span {
+	font-size: 1.6rem;
+}
+header h1 .back {
+	display: inline-block;
+	position: absolute;
+	left: 3.0rem;
+	top: .25rem;
+	/*background-color: red;*/
+}
+header h1 .arrow {
+	font-size: 3rem;
+}
+header h1 .title {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+}
+header ul {
+	font-size: 0;
+	display: inline-block;
+	width: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+header ul li {
+	font-size: 1.6rem;
+	height: 5rem;
+	display: inline-block;
+	box-sizing:border-box;
+	vertical-align: middle;
+	width: 20%;
+	/*background-color: red;*/
+}
+header ul li.select {
+	border-bottom:5px solid #91D4DA;
+}
+header ul li:after {
+	content: " ";
+	height: 5rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.container .pic img{
+	width: 100%;
+}
+.feature {
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 3px solid #aaa;
+	font-size: 0;
+}
+.feature ul li {
+	display: inline-block;
+	width: 20%;
+	box-sizing:border-box;
+	/*padding:3rem; */
+	font-size: 1.6rem;
+	text-align: center;
+	/*border:1px solid;*/
+}
+.feature ul li figure {
+	margin-left: 25%;
+	margin-top: 3rem;
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+	background-color: #00C7D6;
+}
+.feature ul li img {
+	margin-top: 1.5rem;	
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+	/*background-color: #00C7D6;*/
+}
+.feature ul li img:after {
+	content: " ";
+	display: inline-block;
+	vertical-align: middle;
+}
+.feature ul li p {
+	font-size: 2rem;
+	margin-top: 1.5rem;
+}
+aside {
+	width: 90%;
+	margin:1rem auto;
+}
+
+aside ul li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+}
+aside ul li h2 {
+	margin: 1rem 0;
+	font-size: 1.6rem;
+}
+aside ul li h3 {
+	margin: 1rem 0;
+	font-size: 1.4rem;
+	color: #888;
+}
+aside ul li + li {
+	border-left: 1px solid gray;
+}
+.module {
+	margin-top: 1rem;
+}
+.module section {
+	width: 90%;
+	margin: 0 auto;
+}
+.module section header {
+	padding: 2rem 0;
+	border-bottom: 1ps solid gray;
+}
+.module section .content .item {
+	margin-bottom: 1.5rem;
+}
+.module section .content .item img,
+.module section .content .item ul
+ {
+ 	vertical-align: top;
+	display: inline-block;
+	height: 218px;
+	overflow: hidden;
+}
+.module section .content .item img {
+	width: 20%
+}
+.module section .content .item ul {
+	width: 75%;
+}
+.module section .content .item ul li {
+	width: 41.1%;
+	margin-left: 3.05rem;
+	height: 44%;
+	box-sizing:border-box;
+	margin-bottom: 2rem;
+	padding: 1rem 2rem;
+	background-color: #eee;
+	display: inline-block;
+	text-align: center;
+	padding: 3rem 0;
+}
+.articles article {
+	width: 90%;
+	margin: 1rem auto;
+	margin-top: .5rem;
+	height: 218px;
+	/*border-top:1px solid gray;*/
+}
+.articles article img{
+	width: 22%;
+}
+.articles article section {
+	position: relative;
+	vertical-align: top;
+	display: inline-block;
+	width: 75%;
+	height: 218px;
+	margin-left: 1rem;
+	box-sizing:border-box;
+	padding-left: 2rem;
+}
+.articles article section header {
+	font-size: 2.2rem;
+}
+.articles article section aside {
+	color: #aaa;
+	font-size: 1.8rem;
+	position: absolute;
+	bottom: 0;
+}
+.articles article:nth-child(3){
+	width: 95%;
+	margin: 0 auto;
+}
+.articles article:nth-child(3) section {
+	width: 100%;
+}
+.articles article:nth-child(3) aside {
+	position: relative;
+	left: -4rem;
+}
+.articles article section .imgs {
+	margin-top: 2rem;
+}
+.articles article section .imgs li{
+	display: inline-block;
+	width: 31%;
+}
+.articles article section .imgs li img {
+	width: 100%;
+}
