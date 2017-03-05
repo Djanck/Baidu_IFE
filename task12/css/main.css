@@ -1,0 +1,38 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	font-size: 62.5%;
+}
+
+table {
+	font-size: 1.2rem;
+	border-collapse: collapse;
+}
+table td,
+table th {
+	border:1px solid #98bf21;
+	padding:3px 7px 2px 7px;
+}
+table thead {
+	background-color: #000;
+	color: #fff;
+}
+table tr:nth-child(even) td{
+	background-color: #bbb;
+}
+tbody tr:nth-child(-n+3) {
+	color: red;
+}
+input[type="text"] {
+	width: 100px;
+	border: 2px solid #ddd;
+  	margin: 20px;
+  	transition: border-color,width .5s;
+}
+input:focus,
+input:active {
+	width: 200px;
+	border-color: cornflowerblue;
+}
